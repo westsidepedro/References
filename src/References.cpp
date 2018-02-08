@@ -12,7 +12,7 @@ using namespace std;
 void changesomething(double &val)
     {
     cout << "val: " << val << endl;
-    val = 2.15;
+    val = 2.15;					// also makes test=2.15 b/c val is a reference '&'
     cout << "val now: " << val << endl;
     }
 
